@@ -3,6 +3,16 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: "2024040805"
+    created: "2024-04-13T21:15:12.052835471Z"
+    description: A Helm chart for Jellyfin
+    digest: 27c25a4b754467545852799422eaeb8f9615f81292d1fedd3337b376f23e04bc
+    name: jellyfin
+    type: application
+    urls:
+    - https://github.com/sordfish/jellyfin-helm-chart/releases/download/jellyfin-0.1.5/jellyfin-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: "2024040805"
     created: "2024-04-13T20:55:29.4676689Z"
     description: A Helm chart for Jellyfin
     digest: 582ea0baeee16d664a4d17ddd9efa0c29dce71da4cc234a41a1199038b4a7361
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://github.com/sordfish/jellyfin-helm-chart/releases/download/jellyfin-0.1.1/jellyfin-0.1.1.tgz
     version: 0.1.1
-generated: "2024-04-13T20:55:29.467683537Z"
+generated: "2024-04-13T21:15:12.052863993Z"
