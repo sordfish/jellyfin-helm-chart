@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  jellyfin:
+  - apiVersion: v2
+    appVersion: "2024040805"
+    created: "2024-04-13T18:48:39.103581407Z"
+    description: A Helm chart for Jellyfin
+    digest: b1cd93e210918e7819592cdefc6b5d03f62e814cec51d7738d44ae507eaf5edb
+    name: jellyfin
+    type: application
+    urls:
+    - https://github.com/sordfish/jellyfin-helm-chart/releases/download/jellyfin-0.1.1/jellyfin-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-04-13T18:48:39.103587688Z"
