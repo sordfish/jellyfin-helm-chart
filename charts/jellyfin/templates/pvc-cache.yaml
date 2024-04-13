@@ -4,7 +4,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: jellyfin-config
   labels:
-    {{- include "jellfin.labels" . | nindent 4 }}
+    {{- include "jellyfin.labels" . | nindent 4 }}
 spec:
   storageClassName: {{ .Values.persistance.cache.storageClass }}
   accessModes: {{ .Values.persistance.cache.accessModes }}
