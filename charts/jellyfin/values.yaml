@@ -104,7 +104,7 @@ volumeMounts: []
 #   mountPath: "/etc/foo"
 #   readOnly: true
 
-persistance:
+persistence:
   config:
     enabled: false
     size: 100Mi
